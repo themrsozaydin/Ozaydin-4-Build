@@ -102,3 +102,33 @@ footer {
   padding: 1.25rem;
   font-size: 0.9rem;
 }
+
+@media (min-width: 600px) {
+  header {  
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2 rem;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 2rem;
+}
+  .card-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    gap: 2rem;
+  }
+}
